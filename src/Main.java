@@ -19,15 +19,6 @@ public class Main {
             }
         } while (!stringNumber.equals("*"));
 
-//        while (!stringNumber.equals("*"))
-//        {
-//            if (TryParseIn(stringNumber)){
-//                number = Double.parseDouble(stringNumber);
-//                sumNumber = sumNumber + number;
-//                count++;
-//            }
-//            stringNumber = in.next();
-//        }
         avg = sumNumber/count;
 
         System.out.println("The average is " + avg);
